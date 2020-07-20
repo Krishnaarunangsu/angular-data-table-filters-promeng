@@ -5,6 +5,7 @@ import {TableModule} from 'primeng/table';
 import { TabViewModule } from 'primeng/tabview';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { FormsModule } from '@angular/forms';
+import { DropdownModule } from "primeng/dropdown";
 import { ToastModule } from "primeng/toast";
 import { CalendarModule } from "primeng/calendar";
 import { HttpClientModule } from '@angular/common/http';
@@ -29,9 +30,12 @@ import { HomeComponent } from './home/home.component';
     HttpClientModule,
     TableModule,
     TabViewModule,
-    TabMenuModule
+    TabMenuModule,
+    DropdownModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
+
 })
 export class AppModule { }
