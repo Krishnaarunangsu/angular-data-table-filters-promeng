@@ -28,6 +28,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/nova-light/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-data-table-filters-promeng"
+    }
+  },
+  "defaultProject": "angular-data-table-filters-promeng",
+  "cli": {
+    "analytics": "a6fd9395-d1fd-46b4-a972-f10a1df4d3db"
+  }
 }
